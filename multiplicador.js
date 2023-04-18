@@ -11,7 +11,7 @@ function TabuadaFor(){
     var numeroTabuada = parseInt(numeroTexto);
 
     for(mult = 1; mult <=10; mult++){
-        console.log("tabuada do 5" + numeroTabuada * mult);
+        console.log("tabuada do 5" + mult);
     }
 }
 
