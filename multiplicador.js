@@ -1,7 +1,11 @@
 function TabuadaWhile(){
+    var numeroTexto = prompt("Qual a tabuada");
+    var numeroTabuada = parseInt(numeroTexto);
+
     var multiplicado = 1;
     while(multiplicado <= 10){
-        console.log("tabuada do 7 " + 7 * multiplicado);
+        console.log(`tabuada do ${numeroTexto}`); 
+        console.log(numeroTabuada * multiplicado);
         multiplicado++;
     }
 }
@@ -11,8 +15,9 @@ function TabuadaFor(){
     var numeroTabuada = parseInt(numeroTexto);
 
     for(mult = 1; mult <=10; mult++){
-        console.log("tabuada do 5" + mult);
+        console.log(`tabuada do ${numeroTexto}`); 
+        console.log(numeroTabuada * multiplicado);
     }
 }
 
-TabuadaFor();
+TabuadaWhile();b
