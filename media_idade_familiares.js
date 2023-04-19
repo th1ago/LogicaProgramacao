@@ -22,7 +22,18 @@ function mediaIdadeFor() {
 
 
 function mediaIdadeWhile(){
+    var numeroFamiliar = prompt("Quantos familiares");
+    var inteiro = 1;
+    var somAIdade = 0;
 
+    while(inteiro<=numeroFamiliar){
+        var idade = parseInt(prompt("Qual a sua idade"));
+        somAIdade = somAIdade + idade;
+        inteiro++;
+    }
+
+    var media = somAIdade /numeroFamiliar;
+    console.log(media);
 }
 
-mediaIdade();
+mediaIdadeWhile();
