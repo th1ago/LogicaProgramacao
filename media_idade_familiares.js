@@ -3,7 +3,7 @@
 // Dalmary
 // Cidadela de Tala
 
-function mediaIdade() {
+function mediaIdadeFor() {
     var numeroFamiliar = prompt("Quantos familiares");
     var inteiro = 1;
     var somaIdade = 0;
@@ -18,6 +18,11 @@ function mediaIdade() {
     
     var media = somaIdade / numeroFamiliar;
     console.log(media);
+}
+
+
+function mediaIdadeWhile(){
+
 }
 
 mediaIdade();
