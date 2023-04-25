@@ -1,9 +1,9 @@
 function calcularIMC(){
     var peso = prompt("Qual o seu peso");
-    var altura = parseInt("Qual o sua altura");
+    var altura = prompt("Qual o sua altura");
     
-    calculadora = peso / (altura * altura);
-    console.log(calculadora);   
+    imc = peso / (altura * altura);
+    console.log("Seu imc " + imc);   
 }
 
 calcularIMC();
