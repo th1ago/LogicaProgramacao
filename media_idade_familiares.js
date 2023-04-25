@@ -1,8 +1,3 @@
-// Nucleo da fera Demoniaco Bellmoth
-// Vanya
-// Dalmary
-// Cidadela de Tala
-
 function mediaIdadeFor() {
     var numeroFamiliar = prompt("Quantos familiares");
     var inteiro = 1;
